@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Class</title>
+</head>
+
+<body>
+    <h1>Html Forms</h1>
+    <form action="">
+        <label for="username">enter username</label>
+        <input type="text" name="" id="username" required>
+        <br><br>
+        <label for="email">enter email</label>
+        <input type="email" name="" id="email">
+        <br><br>
+        <label for="password">enter password</label>
+        <input type="password" name="" id="password">
+
+        <br><br>
+        <p>Select Your Age:</p>
+        <input type="radio" name="age" id="option-1" value="0-25">
+        <label for="option-1">0-25</label>
+        <br>
+        <input type="radio" name="age" id="option-2" value="26-35">
+        <label for="option-2">26-35</label>
+        <br>
+        <input type="radio" name="age" id="option-3" value="51+">
+        <label for="option-3">51+</label>
+
+        <br><br>
+        <label for="station">Select Train Station </label> <br>
+        <select name="station" id="station">
+           <option value="Nairobi">Nairobi</option>
+           <option value="Mombasa">Mombasa</option>
+        </select>
+
+        <br><br>
+        <label for="train">Select Train Type</label>
+        <select name="train" id="train" aria-placeholder="select">
+            <option value="N1">Inter-County</option>
+            <option value="N1">Express</option>
+        </select>
+
+        <br><br>
+        <label for="bio">Your bio</label>
+        <textarea name="bio" id="" cols="30" rows="10" placeholder="enter your bio"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+</body>
+
+</html>
