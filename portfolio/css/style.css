@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #E4F9F5;
+}
+
+.profile {
+    border-radius: 100%;
+    width: 40%;
+    border: 5px solid #66BFBF;
+    /* padding: auto; */
+    /* width: 100px; */
+}
+
+#nav {
+    color: #66BFBF;
+    font-family: "Quicksand";
+    font-weight: bold;
+}
+
+#nav:hover {
+    background-color: aquamarine;
+    color: bla;
+    text-decoration: underline;
+}
+
+#h1Name {
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    color: #66BFBF;
+    font-family: "Quicksand";
+    display: block;
+}
+
+
+/* #Skills {
+    background-color: white;
+} */
+
+#skillCard {
+    background-color: #E4F9F5;
+}
+
+#h1Skills {
+    font-family: "Quicksand";
+    font-weight: bold;
+    color: #66BFBF;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#h5Card {
+    color: #66BFBF;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+#progressBar {
+    color: #e5f3f3;
+}
