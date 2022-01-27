@@ -2,3 +2,19 @@
     text-decoration: none;
     padding: 8px 8px;
 }
+
+.grey {
+    color: grey;
+}
+
+.border-left-warning {
+    border-left: 0.25rem solid #f6c230;
+}
+
+.border-left-primary {
+    border-left: 0.25rem solid #4e73df;
+}
+
+.border-left-sucess {
+    border-left: 0.25rem solid #4edf4e;
+}
